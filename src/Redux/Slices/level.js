@@ -17,9 +17,6 @@ let initialState = {
   timer: 30,
 };
 
-const timeout = createAsyncThunk("timeout", () => {
-  setTimeout(() => {}, 3000);
-});
 
 export const level = createSlice({
   name: "level",
